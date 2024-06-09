@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	
+	
+<groups>
+	<run>
+		<include name="ErrorHandling"/>  
+	</run>
+	
+</groups>	
+	
+	
+	    <test  name="Error Validation Test">
+    <classes>
+      <class name="shonautomations.tests.ErrorValidations"/>
+    </classes>
+  </test> <!-- Test -->
+	
+  <test name="Sumbit Order Test">
+    <classes>
+      <class name="shonautomations.tests.SubmitOrderTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  
+</suite> <!-- Suite -->

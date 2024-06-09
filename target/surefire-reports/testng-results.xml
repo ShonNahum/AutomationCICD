@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-04T10:49:19 IDT" name="Surefire suite" finished-at="2024-06-04T10:50:04 IDT" duration-ms="44924">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:shonautomations.tests.SubmitOrderTest@2cbb3d47]" name="SubmitOrder" class="shonautomations.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-06-04T10:49:19 IDT" name="Surefire test" finished-at="2024-06-04T10:50:04 IDT" duration-ms="44924">
+      <class name="shonautomations.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:shonautomations.tests.SubmitOrderTest@2cbb3d47]" started-at="2024-06-04T10:49:19 IDT" name="launchApp" finished-at="2024-06-04T10:49:27 IDT" duration-ms="8333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:shonautomations.tests.SubmitOrderTest@2cbb3d47]" started-at="2024-06-04T10:49:27 IDT" name="SubmitOrder" data-provider="GetData" finished-at="2024-06-04T10:49:37 IDT" duration-ms="9714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ProductName=ZARA COAT 3, password=Shonking123, email=shon@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shonautomations.tests.SubmitOrderTest@2cbb3d47]" started-at="2024-06-04T10:49:37 IDT" name="tearDown" finished-at="2024-06-04T10:49:37 IDT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:shonautomations.tests.SubmitOrderTest@2cbb3d47]" started-at="2024-06-04T10:49:37 IDT" name="launchApp" finished-at="2024-06-04T10:49:42 IDT" duration-ms="5153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:shonautomations.tests.SubmitOrderTest@2cbb3d47]" started-at="2024-06-04T10:49:42 IDT" name="SubmitOrder" data-provider="GetData" finished-at="2024-06-04T10:50:04 IDT" duration-ms="21338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ProductName=ZARA COAT 3, password=Shonking123, email=shontest@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shonautomations.tests.SubmitOrderTest@2cbb3d47]" started-at="2024-06-04T10:50:04 IDT" name="tearDown" finished-at="2024-06-04T10:50:04 IDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shonautomations.tests.SubmitOrderTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
