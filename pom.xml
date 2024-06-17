@@ -153,7 +153,7 @@
 	</profile>
 	
 		<profile>
-		<id>ErrorValidation</id>
+		<id>ErrorValidationTests</id>
 		
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -164,7 +164,7 @@
         <version>3.2.5</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testsSuits/ErrorValidation.xml</suiteXmlFile>
+            <suiteXmlFile>testsSuits/ErrorValidationTests.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
