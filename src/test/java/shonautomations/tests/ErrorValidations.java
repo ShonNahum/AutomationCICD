@@ -29,7 +29,7 @@ public class ErrorValidations extends BaseTest {
 	
 
 	
-    @Test(groups = {"ErrorHandling"}, retryAnalyzer=Retry.class)//make the code go into retry class (picked for retry)
+    @Test(groups = {"ErrorHandling"})//make the code go into retry class (picked for retry)
 	public void LoginErrorValidation() throws IOException, InterruptedException
 	{
 		//the login and submit
