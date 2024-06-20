@@ -40,7 +40,7 @@ public class ErrorValidations extends BaseTest {
 	@Test
 	public void ProductErrorValidation()  throws IOException, InterruptedException
 	{
-		String stuff = "ZARA COAT 3";
+		String stuff = "ZARA COAT 3"; //hi
 		ProductCatalog productcatalog =  landingpage.LoginApplication("test@exmaple.com","Shonking123"); // i dont need Open productcatalog object cuz i opened it in the LoginApplication Fucntion inside LandingPage Class becuase the login always take me into productcatalog page
 		List<WebElement> products = productcatalog.GetProductList();
 		productcatalog.AddToCart(stuff);
