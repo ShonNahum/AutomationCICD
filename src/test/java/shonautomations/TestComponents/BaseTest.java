@@ -43,10 +43,8 @@ public abstract class BaseTest {
 			ChromeOptions optionC = new ChromeOptions();
 			WebDriverManager.chromedriver().setup();
 			
-			optionC.addArguments("headless");
 			
-			driver = new ChromeDriver(optionC);
-			driver.manage().window().setSize(new Dimension(1440,990));// its full screen mode size in isible mode
+			driver = new ChromeDriver();
 
 	
 		}
